@@ -1,0 +1,122 @@
+body {
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+}
+
+:root {
+    --color-light: white;
+    --color-purple: #6959c6;
+    --transition: .5s;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 900;
+    transition: var(--transition);
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    background-color: var(--color-purple);
+    border: 2px solid var(--color-purple);
+    padding: 8px 3.5rem;
+    border-radius: 5px;
+    color: var(--color-light);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--color-purple);
+}
+
+.hero {
+    width: 100%;
+    max-height: 50%;
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)),
+        url(../images/fundopng.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-content {
+    width: 60%;
+    padding: 5rem;
+    color: var(--color-light);
+}
+
+.hero-content h2 {
+    font-size: 6vmin;
+    font-weight: 300;
+}
+
+.hero-content p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 3.6rem;
+}
+
+.categoria-title {
+    font-size: 5vmin;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    color: var(--color-purple);
+}
+
+.categoria-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.categoria-item {
+    width: 5%;
+    margin: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 20px #ccc;
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.categoria-item img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.categoria-item p {
+    margin: 0 0 1rem;
+    width: 80%;
+    margin-top: 12px;
+}
+
+.categoria-item h3 {
+    margin: 1rem 0;
+    font-weight: 800;
+}
